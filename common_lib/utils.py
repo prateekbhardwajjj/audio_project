@@ -12,7 +12,7 @@ class AudioModelInterface(ABC):
 class QwenAudioModel(AudioModelInterface):
     def generate_audio(self, text: str) -> str:
         # Imagine 100 lines of complex Qwen AI code here
-        return f"[Qwen AI V2] AUTOMATED DEPLOYMENT SUCCESS!. '{text}'"
+        return f"[Qwen AI] FINAL TEST: My automated CI/CD pipeline is 100% working! '{text}'"
 
 # 3. MOCK MODEL B
 class FutureFastModel(AudioModelInterface):
